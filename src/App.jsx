@@ -1,8 +1,13 @@
-import "./App.css";
+import { Hero, Highlights, Navbar } from "./components";
 
 const App = () => {
-  return <>
-  </>;
+  return (
+    <main className="bg-black">
+      <Navbar />
+      <Hero />
+      <Highlights />
+    </main>
+  );
 };
 
 export default App;
